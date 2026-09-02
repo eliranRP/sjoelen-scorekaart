@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="nl">
+    <string name="app_name">Sjoelen puntentelling</string>
+    <string name="kaart_ondertitel">Puntentelling · poorten 2-3-4-1 · 30 schijven · volle bak +20</string>
+    <string name="speler_hint">Speler (optioneel)</string>
+    <string name="team_hint">Team (optioneel)</string>
+    <string name="wedstrijd_totaal">Wedstrijd</string>
+    <string name="ronde_label">Ronde %1$d</string>
+    <string name="punten">punten</string>
+    <string name="schijven_over">%1$d schijven over</string>
+    <string name="schijven_geplaatst">%1$d / 30 schijven</string>
+    <string name="poort_label">Poort %1$s</string>
+    <string name="plus_poort">Plus poort %1$s</string>
+    <string name="min_poort">Min poort %1$s</string>
+    <string name="volle_bak">Volle bak</string>
+    <string name="volle_bak_huisregel">Huisregel: volle bak +20</string>
+    <string name="volle_bak_uitleg">Bonus als alle vier poorten minstens één schijf hebben. Dit is een huisregel, niet de enige officiële telling.</string>
+    <string name="volle_bak_actief">+20 bonus</string>
+    <string name="ongedaan">Ongedaan maken</string>
+    <string name="nieuwe_ronde">Nieuwe ronde</string>
+    <string name="reset_ronde">Reset ronde</string>
+    <string name="reset_wedstrijd">Reset wedstrijd</string>
+    <string name="reset_ronde_titel">Deze ronde resetten?</string>
+    <string name="reset_ronde_tekst">Schijven in deze ronde gaan terug naar 0. Eerdere ronden en het wedstrijdtotaal blijven staan.</string>
+    <string name="reset_wedstrijd_titel">Hele wedstrijd resetten?</string>
+    <string name="reset_wedstrijd_tekst">Alle ronden en punten worden gewist. Namen blijven bewaard.</string>
+    <string name="bevestig_reset">Reset</string>
+    <string name="annuleer">Annuleer</string>
+    <string name="ronden">Ronden</string>
+    <string name="ronde_regel">Ronde %1$d · %2$d punten</string>
+    <string name="ronde_detail">2:%1$d  3:%2$d  4:%3$d  1:%4$d</string>
+    <string name="lege_ronden">Nog geen afgeronde ronden</string>
+    <string name="huidige_ronde">Deze ronde</string>
+</resources>
