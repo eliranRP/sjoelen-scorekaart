@@ -28,7 +28,7 @@ Example: 1-1-1-1 = **20**. 7-7-9-7 = **148** (maximum with 30 schijven).
 
 ## Build
 
-JDK 17+ and Android SDK 35 (`compileSdk` / `targetSdk` 35, `minSdk` 26).
+JDK 17+ and Android SDK 36 (`compileSdk` / `targetSdk` 36, `minSdk` 26).
 
 ```bash
 ./gradlew assembleDebug
