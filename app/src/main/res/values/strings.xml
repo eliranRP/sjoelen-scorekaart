@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sjoelen Scorekaart</string>
+    <string name="app_name">Sjoelen puntentelling</string>
     <string name="header_brand">Sjoelen</string>
-    <string name="header_title">Scorekaart</string>
+    <string name="header_title">puntentelling</string>
     <string name="round_label">Ronde %1$d</string>
     <string name="total_label">Totaal</string>
     <string name="this_round_label">Deze ronde</string>
@@ -25,7 +25,7 @@
     <string name="undo">Ongedaan maken</string>
     <string name="next_round">Volgende ronde</string>
     <string name="reset">Opnieuw</string>
-    <string name="reset_title">Scorekaart wissen?</string>
+    <string name="reset_title">Puntentelling wissen?</string>
     <string name="reset_message">Alle punten en rondes worden gewist. De spelers blijven behouden.</string>
     <string name="reset_confirm">Wissen</string>
     <string name="history_title">Eerdere rondes</string>

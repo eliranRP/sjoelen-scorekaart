@@ -1,9 +1,10 @@
-# Sjoelen Scorekaart
+# Sjoelen puntentelling
 
-Dutch-first Android **scorekaart** for sjoelen (sjoelbak). Local puntentelling only — not a physics game, not 3D, not an account app.
+Dutch-first Android puntentelling for sjoelen (sjoelbak). Local scoring only — not a physics game, not 3D, not an account app.
 
+Repo nickname: sjoelen-scorekaart.  
 Package: `com.eliranrp.sjoelenscorekaart`  
-Play listing name (later): **Sjoelen Scorekaart**
+Play listing / launcher name: **Sjoelen puntentelling**
 
 ## What it does
 

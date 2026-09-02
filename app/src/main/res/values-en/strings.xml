@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sjoelen Scorekaart</string>
+    <string name="app_name">Sjoelen puntentelling</string>
     <string name="header_brand">Sjoelen</string>
-    <string name="header_title">Score card</string>
+    <string name="header_title">puntentelling</string>
     <string name="round_label">Round %1$d</string>
     <string name="total_label">Total</string>
     <string name="this_round_label">This round</string>
@@ -25,7 +25,7 @@
     <string name="undo">Undo</string>
     <string name="next_round">Next round</string>
     <string name="reset">Reset</string>
-    <string name="reset_title">Clear the score card?</string>
+    <string name="reset_title">Clear puntentelling?</string>
     <string name="reset_message">All points and rounds will be cleared. Players are kept.</string>
     <string name="reset_confirm">Clear</string>
     <string name="history_title">Earlier rounds</string>
