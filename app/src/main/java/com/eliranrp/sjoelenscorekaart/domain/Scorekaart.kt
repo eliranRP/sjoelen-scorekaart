@@ -69,11 +69,6 @@ data class ScorekaartState(
 ) {
     val selected: PlayerState
         get() = players.first { it.id == selectedPlayerId }
-
-    fun displayName(player: PlayerState, defaultLabel: (Int) -> String): String {
-        val trimmed = player.customName.trim()
-        return trimmed.ifEmpty { defaultLabel(player.number) }
-    }
 }
 
 /**

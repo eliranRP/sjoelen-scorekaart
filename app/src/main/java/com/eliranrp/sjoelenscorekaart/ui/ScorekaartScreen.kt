@@ -114,7 +114,6 @@ fun ScorekaartScreen(
 ) {
     val game = ui.game
     val selected = game.selected
-    val defaultLabel: (Int) -> String = { number -> stringResource(R.string.player_default, number) }
     var showResetConfirm by rememberSaveable { mutableStateOf(false) }
     var showRename by rememberSaveable { mutableStateOf(false) }
 
@@ -139,7 +138,6 @@ fun ScorekaartScreen(
             PlayerRow(
                 players = game.players,
                 selectedId = game.selectedPlayerId,
-                displayName = { game.displayName(it, defaultLabel) },
                 canAdd = game.players.size < Scorekaart.MAX_PLAYERS,
                 canRemove = game.players.size > 1,
                 onSelect = onSelectPlayer,
@@ -252,7 +250,7 @@ private fun PaperHeader(round: Int) {
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             Text(
-                text = stringResource(R.string.header_kicker).uppercase(),
+                text = stringResource(R.string.header_brand).uppercase(),
                 color = WoodMid,
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Bold,
@@ -280,7 +278,6 @@ private fun PaperHeader(round: Int) {
 private fun PlayerRow(
     players: List<PlayerState>,
     selectedId: Long,
-    displayName: @Composable (PlayerState) -> String,
     canAdd: Boolean,
     canRemove: Boolean,
     onSelect: (Long) -> Unit,
@@ -295,7 +292,8 @@ private fun PlayerRow(
         ) {
             items(players, key = { it.id }) { player ->
                 val selected = player.id == selectedId
-                val name = displayName(player)
+                val custom = player.customName.trim()
+                val name = custom.ifEmpty { stringResource(R.string.player_default, player.number) }
                 Box(
                     modifier = Modifier
                         .clip(RoundedCornerShape(20.dp))

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Sjoelen Scorekaart</string>
-    <string name="header_kicker">Sjoelen</string>
+    <string name="header_brand">Sjoelen</string>
     <string name="header_title">Score card</string>
     <string name="round_label">Round %1$d</string>
     <string name="total_label">Total</string>
