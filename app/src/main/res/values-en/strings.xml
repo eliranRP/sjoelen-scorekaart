@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sjoelen scoreboard</string>
+    <string name="kaart_ondertitel">Scoring · poorten 2-3-4-1 · 30 discs · volle bak +20</string>
+    <string name="speler_hint">Player (optional)</string>
+    <string name="team_hint">Team (optional)</string>
+    <string name="wedstrijd_totaal">Match</string>
+    <string name="ronde_label">Round %1$d</string>
+    <string name="punten">points</string>
+    <string name="schijven_over">%1$d discs left</string>
+    <string name="schijven_geplaatst">%1$d / 30 discs</string>
+    <string name="poort_label">Gate %1$s</string>
+    <string name="plus_poort">Plus gate %1$s</string>
+    <string name="min_poort">Minus gate %1$s</string>
+    <string name="volle_bak">Volle bak</string>
+    <string name="volle_bak_huisregel">House rule: volle bak +20</string>
+    <string name="volle_bak_uitleg">Bonus when all four gates have at least one disc. This is a house rule, not the only official scoring.</string>
+    <string name="volle_bak_actief">+20 bonus</string>
+    <string name="ongedaan">Undo</string>
+    <string name="nieuwe_ronde">New round</string>
+    <string name="reset_ronde">Reset round</string>
+    <string name="reset_wedstrijd">Reset match</string>
+    <string name="reset_ronde_titel">Reset this round?</string>
+    <string name="reset_ronde_tekst">Discs in this round go back to 0. Earlier rounds and the match total stay.</string>
+    <string name="reset_wedstrijd_titel">Reset the whole match?</string>
+    <string name="reset_wedstrijd_tekst">All rounds and points are cleared. Names are kept.</string>
+    <string name="bevestig_reset">Reset</string>
+    <string name="annuleer">Cancel</string>
+    <string name="ronden">Rounds</string>
+    <string name="ronde_regel">Round %1$d · %2$d points</string>
+    <string name="ronde_detail">2:%1$d  3:%2$d  4:%3$d  1:%4$d</string>
+    <string name="lege_ronden">No finished rounds yet</string>
+    <string name="huidige_ronde">This round</string>
+</resources>
