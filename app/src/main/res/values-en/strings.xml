@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sjoelen puntentelling</string>
+    <string name="header_brand">Sjoelen</string>
+    <string name="header_title">puntentelling</string>
+    <string name="round_label">Round %1$d</string>
+    <string name="total_label">Total</string>
+    <string name="this_round_label">This round</string>
+    <string name="discs_used">%1$d of %2$d discs</string>
+    <string name="outside_gates">Outside the gates: %1$d × 0</string>
+    <string name="volle_bak">Full set</string>
+    <string name="volle_bak_sets">Full set ×%1$d</string>
+    <string name="volle_bak_points">+%1$d</string>
+    <string name="gate_label">Gate %1$d</string>
+    <string name="increment_gate">Gate %1$d plus one disc</string>
+    <string name="decrement_gate">Gate %1$d minus one disc</string>
+    <string name="discs_in_gate">%1$d discs in gate %2$d</string>
+    <string name="player_default">Player %1$d</string>
+    <string name="add_player">Add player</string>
+    <string name="remove_player">Remove player</string>
+    <string name="rename_player">Rename</string>
+    <string name="player_name_optional">Name (optional)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="undo">Undo</string>
+    <string name="next_round">Next round</string>
+    <string name="reset">Reset</string>
+    <string name="reset_title">Clear puntentelling?</string>
+    <string name="reset_message">All points and rounds will be cleared. Players are kept.</string>
+    <string name="reset_confirm">Clear</string>
+    <string name="history_title">Earlier rounds</string>
+    <string name="history_round">R%1$d: %2$d</string>
+    <string name="history_empty">No round finished yet</string>
+    <string name="ok">OK</string>
+    <string name="cannot_undo">Nothing to undo</string>
+    <string name="footer_hint">30 discs · gates 2 · 3 · 4 · 1 · local only</string>
+</resources>

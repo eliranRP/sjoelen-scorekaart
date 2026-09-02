@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sjoelen puntentelling</string>
+    <string name="header_brand">Sjoelen</string>
+    <string name="header_title">puntentelling</string>
+    <string name="round_label">Ronde %1$d</string>
+    <string name="total_label">Totaal</string>
+    <string name="this_round_label">Deze ronde</string>
+    <string name="discs_used">%1$d van %2$d schijven</string>
+    <string name="outside_gates">Buiten de poorten: %1$d × 0</string>
+    <string name="volle_bak">Volle bak</string>
+    <string name="volle_bak_sets">Volle bak ×%1$d</string>
+    <string name="volle_bak_points">+%1$d</string>
+    <string name="gate_label">Poort %1$d</string>
+    <string name="increment_gate">Poort %1$d plus één schijf</string>
+    <string name="decrement_gate">Poort %1$d min één schijf</string>
+    <string name="discs_in_gate">%1$d schijven in poort %2$d</string>
+    <string name="player_default">Speler %1$d</string>
+    <string name="add_player">Speler toevoegen</string>
+    <string name="remove_player">Speler verwijderen</string>
+    <string name="rename_player">Naam wijzigen</string>
+    <string name="player_name_optional">Naam (optioneel)</string>
+    <string name="save">Opslaan</string>
+    <string name="cancel">Annuleren</string>
+    <string name="undo">Ongedaan maken</string>
+    <string name="next_round">Volgende ronde</string>
+    <string name="reset">Opnieuw</string>
+    <string name="reset_title">Puntentelling wissen?</string>
+    <string name="reset_message">Alle punten en rondes worden gewist. De spelers blijven behouden.</string>
+    <string name="reset_confirm">Wissen</string>
+    <string name="history_title">Eerdere rondes</string>
+    <string name="history_round">R%1$d: %2$d</string>
+    <string name="history_empty">Nog geen ronde afgerond</string>
+    <string name="ok">OK</string>
+    <string name="cannot_undo">Niets om ongedaan te maken</string>
+    <string name="footer_hint">30 schijven · poorten 2 · 3 · 4 · 1 · lokaal</string>
+</resources>
