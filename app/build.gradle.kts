@@ -1,7 +1,22 @@
+import java.io.File
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.compose")
+}
+
+val keystoreProperties = Properties()
+val keystorePropertiesFile = rootProject.file("keystore.properties")
+if (keystorePropertiesFile.exists()) {
+    keystorePropertiesFile.inputStream().use { keystoreProperties.load(it) }
+}
+
+fun signingProp(name: String, envName: String): String? {
+    val fromEnv = System.getenv(envName)
+    if (!fromEnv.isNullOrBlank()) return fromEnv
+    return keystoreProperties.getProperty(name)?.takeIf { it.isNotBlank() }
 }
 
 android {
@@ -13,13 +28,34 @@ android {
         minSdk = 26
         targetSdk = 36
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
 
+    signingConfigs {
+        val storeFilePath = signingProp("storeFile", "RELEASE_STORE_FILE")
+        val storePassword = signingProp("storePassword", "RELEASE_STORE_PASSWORD")
+        val keyAlias = signingProp("keyAlias", "RELEASE_KEY_ALIAS")
+        val keyPassword = signingProp("keyPassword", "RELEASE_KEY_PASSWORD")
+        if (
+            !storeFilePath.isNullOrBlank() &&
+            !storePassword.isNullOrBlank() &&
+            !keyAlias.isNullOrBlank() &&
+            !keyPassword.isNullOrBlank()
+        ) {
+            create("release") {
+                storeFile = File(storeFilePath)
+                this.storePassword = storePassword
+                this.keyAlias = keyAlias
+                this.keyPassword = keyPassword
+            }
+        }
+    }
+
     buildTypes {
         release {
+            signingConfigs.findByName("release")?.let { signingConfig = it }
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
