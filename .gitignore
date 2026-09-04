@@ -10,7 +10,10 @@
 *.apk
 *.ap_
 *.aab
+*.jks
 *.keystore
+keystore.properties
+signing-notes.txt
 google-services.json
 play-*.json
 /app/release/
